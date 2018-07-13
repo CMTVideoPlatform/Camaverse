@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'octarinelight';
+    src: url('octarine-light-webfont.woff2') format('woff2'),
+    url('octarine-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html, body {
+    height: 100%;
+}
+body{
+    background: rgb(39,71,110);
+    background: radial-gradient(circle, rgba(39,71,110,1) 35%, rgba(0,29,74,1) 100%);
+    color: #fff;
+    font-family: 'octarinelight';
+}
+.aligner {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+}
+.brand {
+    font-size: 75px;
+    text-transform: uppercase;
+}
+.brand-slogan {
+    border-top: 3px #CA907E solid;
+    color: #006992;
+    font-size: .57em;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.brand-small {
+    font-size: .7em;
+}
+.text-brand-secondary {
+    color: #EAF8BF;
+}
